@@ -1,0 +1,9 @@
+name: TransferPE
+main: AnkitM252\Main
+version: 1.0.0
+api: [2.0.0,3.0.0]
+
+commands:
+ transferpe:
+  description: Command to transfer players
+  default: op
