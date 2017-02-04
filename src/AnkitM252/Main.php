@@ -33,7 +33,7 @@ class Main extends PluginBase implements Listener{
 		$pk = new TransferPacket();
 		$pk->address = $ip;
 		$pk->port = $port;
-		Command::broadcastCommandMessage($sender, "Transferred to " . $ip . ":" . $port);
+		Command::broadcastCommandMessage($player, "Transferred to " . $ip . ":" . $port);
 	}
 	public function onDisable(){
 		$this->getLogger()->info(TF::RED . "TransferPE has been disabled!");
