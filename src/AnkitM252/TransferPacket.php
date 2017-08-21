@@ -1,7 +1,7 @@
 <?php
 namespace AnkitM252;
 
-use pocketmine\network\protocol\DataPacket;
+use pocketmine\network\mcpe\protocol\DataPacket;
 
 class TransferPacket extends DataPacket{
     const NETWORK_ID = 0x52;
