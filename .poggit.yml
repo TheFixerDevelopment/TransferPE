@@ -1,6 +1,6 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/AnkitM252/TransferPE
 branches:
-- master
+- patch-1
 projects:
   TransferPE:
     path: ""
